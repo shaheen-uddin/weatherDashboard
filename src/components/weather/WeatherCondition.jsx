@@ -1,4 +1,8 @@
-import React from 'react'
+import TempMaxIcon from '../../assets/icons/temp-max.svg';
+import TempMinIcon from './../../assets/icons/temp-min.svg';
+import HumidityIcon from '../../assets/icons/humidity.svg';
+import CloudIcon from '../../assets/icons/cloud.svg';
+import WindIcon from '../../assets/icons/wind.svg';
 
 export default function WeatherCondition() {
   return (
@@ -11,35 +15,35 @@ export default function WeatherCondition() {
         <span>Temp max</span>
         <div class="inline-flex space-x-4">
           <p>19°</p>
-          <img src="./assets/icons/temp-max.svg" alt="temp-max" />
+          <img src={TempMaxIcon} alt="temp-max" />
         </div>
       </li>
       <li class="text-sm lg:text-lg flex items-center justify-between space-x-4">
         <span>Temp min</span>
         <div class="inline-flex space-x-4">
           <p>19°</p>
-          <img src="./assets/icons/temp-min.svg" alt="temp-min" />
+          <img src={TempMinIcon} alt="temp-min" />
         </div>
       </li>
       <li class="text-sm lg:text-lg flex items-center justify-between space-x-4">
         <span>Humadity</span>
         <div class="inline-flex space-x-4">
           <p>58%</p>
-          <img src="./assets/icons/humidity.svg" alt="humidity" />
+          <img src={HumidityIcon} alt="humidity" />
         </div>
       </li>
       <li class="text-sm lg:text-lg flex items-center justify-between space-x-4">
         <span>Cloudy</span>
         <div class="inline-flex space-x-4">
           <p>86%</p>
-          <img src="./assets/icons/cloud.svg" alt="cloudy" />
+          <img src={CloudIcon} alt="cloudy" />
         </div>
       </li>
       <li class="text-sm lg:text-lg flex items-center justify-between space-x-4">
         <span>Wind</span>
         <div class="inline-flex space-x-4">
           <p>5km/h</p>
-          <img src="./assets/icons/wind.svg" alt="wind" />
+          <img src={WindIcon} alt="wind" />
         </div>
       </li>
     </ul>

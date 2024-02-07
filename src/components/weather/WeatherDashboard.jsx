@@ -1,6 +1,7 @@
 import React from "react";
 import AddToFavorite from "./AddToFavorite";
 import WeatherHeadline from "./WeatherHeadline";
+import WeatherCondition from "./WeatherCondition";
 
 export default function WeatherDashboard() {
   return (
@@ -9,8 +10,7 @@ export default function WeatherDashboard() {
         <div class="grid md:grid-cols-2 gap-10 md:gap-6">
           <AddToFavorite />
           <WeatherHeadline />
-         
-         
+          <WeatherCondition />
         </div>
       </div>
     </div>
