@@ -4,7 +4,16 @@ export default {
     './index.html', './src/**/*.{js,jsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      container : {
+        center: true,
+        padding: '1.25rem'
+      },
+      colors: {
+        body: '#1D1E28',
+        light: '#fff',
+      }
+    },
   },
   plugins: [],
 }
