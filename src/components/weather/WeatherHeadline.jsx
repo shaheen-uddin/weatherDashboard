@@ -11,10 +11,10 @@ import { getFormattedDate } from "../../utils/date-util";
 
 export default function WeatherHeadline() {
   const { weatherData } = useContext(WeatherContext);
-  console.log("TIIIIme: " + getFormattedDate(1707375885, "time", false));
+  //console.log("TIIIIme: " + getFormattedDate(1707375885, "time", false));
 
   function getWeatherIcon(climate) {
-    console.log("Icon: " + climate);
+    // console.log("Icon: " + climate);
     switch (climate) {
       case "Rain":
         return RainIcon;

@@ -10,8 +10,8 @@ export default function WeatherCondition() {
   const { weatherData } = useContext(WeatherContext);
   return (
     <div>
-      <p className="text-sm lg:text-lg font-bold uppercase mb-8">
-        {weatherData.climate}
+      <p className="text-sm lg:text-lg font-bold  mb-8">
+        The climate is <b>{weatherData.climate}</b>
       </p>
       <ul className="space-y-6 lg:space-y-6">
         <li className="text-sm lg:text-lg flex items-center justify-between space-x-4">
