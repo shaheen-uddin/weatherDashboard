@@ -11,8 +11,8 @@ const data = [
   },
   {
     location: "Dhaka",
-    latitude: 23.777176,
-    longitude: 90.399452,
+    latitude: 23.7104,
+    longitude: 90.40744,
   },
   {
     location: "Singapore",
@@ -28,6 +28,31 @@ const data = [
     location: "Toronto",
     latitude: 43.6534817,
     longitude: -79.3839347,
+  },
+  {
+    location: "Jessore",
+    latitude: 23.16971,
+    longitude: 89.21371,
+  },
+  {
+    location: "Kushtia",
+    latitude: 23.9028,
+    longitude: 89.11943,
+  },
+  {
+    location: "Sylhet",
+    latitude: 24.89904,
+    longitude: 91.87198,
+  },
+  {
+    location: "Chittagong",
+    latitude: 22.3384,
+    longitude: 91.83168,
+  },
+  {
+    location: "Khulna",
+    latitude: 22.80979,
+    longitude: 89.56439,
   },
 ];
 
